@@ -1,0 +1,4 @@
+beego-mysql-redis-mongodb
+*.swp
+vendor/
+.idea

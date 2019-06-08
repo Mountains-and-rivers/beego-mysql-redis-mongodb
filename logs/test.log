@@ -1,0 +1,40 @@
+2017/06/06 21:52:39 [D] [common.go:197] AuthString:  
+2017/06/06 21:52:39 [E] [common.go:201] AuthString invalid:  
+2017/06/06 21:54:49 [D] [common.go:197] AuthString:  
+2017/06/06 21:54:49 [E] [common.go:201] AuthString invalid:  
+2017/06/06 21:54:50 [D] [common.go:197] AuthString:  
+2017/06/06 21:54:50 [E] [common.go:201] AuthString invalid:  
+2017/06/06 21:54:58 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/06/06 21:54:58 [E] [users.go:87] FindUserById: not found 
+2017/06/06 21:56:29 [D] [users.go:31] ParseRegsiterForm: &{13508712076 张三 12345678} 
+2017/06/06 21:56:29 [D] [users.go:48] NewUser: &{13508712076 张三 05cd4990cc322d52ab6996c92aa5d308d3c7b33cee2cb2f240c3b9e04f4a16c971fa358016c3927c1821b05171cf373c87c0cef1af4a619059898e2cd64897c5 88b173af79fbda304f8519a5c505c5fb6bf2865ce4126c6d8161b89705c8adfd9ccfd24c85c79b40255daf79024d2504980a5830b6dc768c7b4994edc5b882b8 2017-06-06 21:56:29.0757761 +0800 CST} 
+2017/06/06 21:56:29 [D] [statistics.go:32] MULTI HINCRBY for new user registeration reply: [1 1 1 1] 
+2017/06/06 21:56:41 [D] [users.go:76] ParseLoginForm: &{13508712076 12345678} 
+2017/06/06 21:56:41 [D] [users.go:96] UserInfo: &{13508712076 张三 05cd4990cc322d52ab6996c92aa5d308d3c7b33cee2cb2f240c3b9e04f4a16c971fa358016c3927c1821b05171cf373c87c0cef1af4a619059898e2cd64897c5 88b173af79fbda304f8519a5c505c5fb6bf2865ce4126c6d8161b89705c8adfd9ccfd24c85c79b40255daf79024d2504980a5830b6dc768c7b4994edc5b882b8 2017-06-06 21:56:29.075 +0800 CST} 
+2019/06/08 19:01:35.782 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    24.9332ms|   match|[44m GET     [0m /     r:/
+2019/06/08 19:01:39.390 [D] [users.go:76]  ParseLoginForm: &{13508712076 12345678} 
+2019/06/08 19:01:39.394 [E] [users.go:87]  FindUserById: not found 
+2019/06/08 19:01:39.394 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    17.9669ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2019/06/08 19:01:46.314 [D] [users.go:31]  ParseRegsiterForm: &{13508712076 张三 12345678} 
+2019/06/08 19:01:46.359 [D] [users.go:48]  NewUser: &{13508712076 张三 24ed88d8098b6c79fbf7a4ea8e6ed9b4d8fc5345778393feacadfc0e0686f588f1c92dfb1484e09ca2db7f0365b6ff5b80766e890085ba562466af0206b43274 3c581a898514a43c812ea93ff09230557f90092032080a54ffd6ae9d61b1547def2946839a348fba6941ad72e8684bfe00dd17a8375ebdd23eaaa8cad5e14498 2019-06-08 19:01:46.3158992 +0800 CST m=+18.784940001} 
+2019/06/08 19:01:46.380 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    77.7912ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2019/06/08 19:01:46.401 [D] [statistics.go:32]  MULTI HINCRBY for new user registeration reply: [2 2 2 2] 
+2019/06/08 19:01:49.292 [D] [users.go:76]  ParseLoginForm: &{13508712076 12345678} 
+2019/06/08 19:01:49.296 [D] [users.go:96]  UserInfo: &{13508712076 张三 24ed88d8098b6c79fbf7a4ea8e6ed9b4d8fc5345778393feacadfc0e0686f588f1c92dfb1484e09ca2db7f0365b6ff5b80766e890085ba562466af0206b43274 3c581a898514a43c812ea93ff09230557f90092032080a54ffd6ae9d61b1547def2946839a348fba6941ad72e8684bfe00dd17a8375ebdd23eaaa8cad5e14498 2019-06-08 19:01:46.315 +0800 CST} 
+2019/06/08 19:01:49.340 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    60.3155ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2019/06/08 19:05:31.153 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    26.9283ms|   match|[44m GET     [0m /     r:/
+2019/06/08 19:05:32.849 [D] [users.go:31]  ParseRegsiterForm: &{13508712076 张三 12345678} 
+2019/06/08 19:05:32.892 [D] [users.go:48]  NewUser: &{13508712076 张三 d9fea347a6e64b5248cb68f4faf142549c6e2bc48b3d6ac9ff8fd0f92bf0ac9d17df9a600843f5ed64f067011f9960cdb2918fe2c5933b2a2352084d66a2f19d 950f096a7b2e6477d6a17769aa5bc462de194fe05f7bc00721338b38ddaf3ffe0cd50361eb2c6a3275cd7aea144ec3a763f3fd356a2dce606d9dc89ccf1197fc 2019-06-08 19:05:32.8502062 +0800 CST m=+2.168165801} 
+2019/06/08 19:05:32.899 [E] [users.go:51]  InsertUser: E11000 duplicate key error collection: admin.users index: _id_ dup key: { : "13508712076" } 
+2019/06/08 19:05:32.899 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    67.8053ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2019/06/08 19:05:35.624 [D] [users.go:76]  ParseLoginForm: &{13508712076 12345678} 
+2019/06/08 19:05:35.631 [D] [users.go:96]  UserInfo: &{13508712076 张三 24ed88d8098b6c79fbf7a4ea8e6ed9b4d8fc5345778393feacadfc0e0686f588f1c92dfb1484e09ca2db7f0365b6ff5b80766e890085ba562466af0206b43274 3c581a898514a43c812ea93ff09230557f90092032080a54ffd6ae9d61b1547def2946839a348fba6941ad72e8684bfe00dd17a8375ebdd23eaaa8cad5e14498 2019-06-08 19:01:46.315 +0800 CST} 
+2019/06/08 19:05:35.676 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    69.8093ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2019/06/08 19:06:43.020 [D] [users.go:31]  ParseRegsiterForm: &{13508712076 张三 12345678} 
+2019/06/08 19:06:43.066 [D] [users.go:48]  NewUser: &{13508712076 张三 db5b40ebe6f649fb9050abebc4b82c2d3cc4019605af58ff3136a95dfed86a9ca1d4a27cc77b045e33f9f677529d6a5f1c2db287f6572c39d7567897f00cbe2b c2b15a3a328d53a3ffb59913d558513e1047c10917f280b956eea580261e1a3990462c4fea7d0a52e38b66fd5527718663923fcd92769e473007c04e1ec56d8e 2019-06-08 19:06:43.0219762 +0800 CST m=+28.632304001} 
+2019/06/08 19:06:43.084 [E] [users.go:51]  InsertUser: E11000 duplicate key error collection: admin.users index: _id_ dup key: { : "13508712076" } 
+2019/06/08 19:06:43.085 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    76.7952ms|   match|[46m POST    [0m /v1/users/register   r:/v1/users/register
+2019/06/08 19:06:45.445 [D] [users.go:76]  ParseLoginForm: &{13508712076 12345678} 
+2019/06/08 19:06:45.464 [D] [users.go:96]  UserInfo: &{13508712076 张三 24ed88d8098b6c79fbf7a4ea8e6ed9b4d8fc5345778393feacadfc0e0686f588f1c92dfb1484e09ca2db7f0365b6ff5b80766e890085ba562466af0206b43274 3c581a898514a43c812ea93ff09230557f90092032080a54ffd6ae9d61b1547def2946839a348fba6941ad72e8684bfe00dd17a8375ebdd23eaaa8cad5e14498 2019-06-08 19:01:46.315 +0800 CST} 
+2019/06/08 19:06:45.512 [D] [server.go:2774]  |            ::1|[42m 200 [0m|    72.8279ms|   match|[46m POST    [0m /v1/users/login   r:/v1/users/login
+2019/06/08 19:06:50.309 [D] [server.go:2774]  |            ::1|[42m 200 [0m|     6.9799ms|   match|[44m GET     [0m /     r:/
