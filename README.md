@@ -157,7 +157,7 @@ $ go get -u github.com/astaxie/beego/session/redis
 $ go get -u gopkg.in/mgo.v2
 $ go get -u github.com/garyburd/redigo/redis
 $ go get -u github.com/go-sql-driver/mysql
-$ go get -u golang.org/x/crypto/scrypt      ---  可手动git clone 到本地$GOPATH/src//src/golang.org/x 再执行
+$ go get -u golang.org/x/crypto/scrypt      ---  可手动git clone 到本地$GOPATH/src/golang.org/x 再执行
 $ go get -u github.com/dgrijalva/jwt-go
 ```
 
